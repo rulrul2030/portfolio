@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+#home h1 img {
+  width: 100%;
+}
+
+.font-weight-bold m-0 span {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #4B4B4D;
+}
+
+.mb-4 {
+  color: #6a6a6d !important;
+}
+
+.col-lg-7 p span {
+  color: #ED979A;
+}
+
+.text-center h4 {
+  line-height: 1.5;
+}
+
+.text-center h4 span {
+  color: #ED979A;
+}
+
+.portfolio-btn a {
+  color: #6D6D6D;
+  padding: 20px;
+}
+
+.portfolio-btn-img a {
+  margin-right: 31px;
+}
+
+.portfolio-btn-img a:last-child {
+  margin-right: 0;
+}
+
+.thank-you {
+  color: #858587;
+}
+
+.border-primary {
+  border-color: #ED979A !important;
+}
+
+body {
+  font-family: 'Pretendard', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Pretendard', sans-serif !important;
+}
+
+#skill h6 {
+  color: #858587 !important;
+}
+
+.photoshop-bar {
+  background-color: #A1CBAA !important;
+}
+
+.illustrator-bar {
+  background-color: #D1CE77 !important;
+}
+
+.figma-bar {
+  background-color: #DC9090 !important;
+}
+
+.naver-bar {
+  background-color: #A0C0D3 !important;
+}
+
+.premier-bar {
+  background-color: #DC9090 !important;
+}
+
+.after-bar {
+  background-color: #9290B6 !important;
+}
+
+.html-bar {
+  background-color: #D1CE77 !important;
+}
+
+.cafe24-bar {
+  background-color: #A1CBAA !important;
+}
+
+#about h6{
+  color: #858587 !important;
+}
+
+#about h6{
+  font-weight: 600 !important;
+}
+
+#about h6 .text-secondary{
+  font-weight: 300 !important;
+}
+
+.text-center h4 {
+  line-height: 1.5;
+}
+
+.text-center h4 span {
+  color: #ED979A;
+}
+
+@media (max-width: 576px) {
+  .text-center h4 {
+      font-size: 18px; 
+      line-height: 1.5; 
+  }
+
+  .text-center h4 span {
+      font-size: 18px; 
+  }
+}
+
+.text-center h4 {
+  white-space: normal; 
+  word-break: keep-all; 
+  overflow-wrap: break-word; 
+  line-height: 1.5; 
+}
+  
+
+.col-lg-6 h5 {
+  white-space: normal; 
+  word-break: keep-all; 
+  overflow-wrap: break-word; 
+  line-height: 1.5; 
+}
+
+
+.col-lg-6 .explain {
+  white-space: normal; 
+  word-break: keep-all; 
+  overflow-wrap: break-word; 
+  line-height: 1.5; 
+}
+
+.contact-form p {
+  font-size: 16px !important; 
+  color: #212529 !important; 
+  background-color: #f8f9fa !important; 
+  border: 1px solid #ddd !important; 
+  border-radius: 5px !important; 
+  padding: 15px !important; 
+  margin-bottom: 15px !important; 
+  text-align: left !important; 
+}
+
+.contact-form {
+  background-color: #ffffff !important; 
+  padding: 20px !important; 
+  border-radius: 10px !important; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important; 
+}
+
+.contact-form p.text-primary {
+  color: #ED979A !important; 
+  font-weight: bold !important; 
+  white-space: normal; 
+  word-break: keep-all;
+  overflow-wrap: break-word; 
+  line-height: 1.5; 
+}
+
+.contact-form p span {
+  color: #858587 !important; 
+  font-weight: 400 !important; 
+}
+
+.contact-form p.text-primary font-weight-bold message {
+  color: #ED979A !important; 
+  font-weight: bold !important; 
+  white-space: normal; 
+  word-break: keep-all; 
+  overflow-wrap: break-word; 
+  line-height: 1.5; 
+  text-indent: 2em; 
+} 
+
+
+.circle-number {
+  width: 50px; 
+  height: 50px; 
+  background-color: #858587; 
+  color: #fff; 
+  font-size: 18px; 
+  font-weight: bold; 
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin-right: 15px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.circle-number + h4 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.circle-arrow {
+  width: 50px;
+  height: 50px; 
+  background-color: #ED979A ; 
+  color: #fff; 
+  font-size: 18px; 
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin-right: 15px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.circle-arrow i {
+  font-size: 20px;
+  color: #fff; 
+}
+
+/* 이미지 크기 조정 (기본 보기) */
+#portfolio .img-fluid {
+  width: 400px !important; /* 원하는 기본 너비로 설정 */
+  height: 300px !important; /* 원하는 기본 높이로 설정 */
+  object-fit: cover !important; /* 이미지를 잘라내거나 맞춤 */
+}
+
+/* 팝업에서 이미지 크기 조정 */
+#portfolio .portfolio-btn a img {
+  max-width: 100% !important; /* 팝업에서 원하는 너비 */
+  height: auto !important; /* 높이는 비율 유지 */
+  max-width: 90% !important; /* 화면 크기에 맞게 제한 */
+  max-height: 90vh !important; /* 브라우저 높이 90% 제한 */
+  object-fit: contain !important; /* 팝업에서는 전체 이미지 표시 */
+}
+
+
+
+
