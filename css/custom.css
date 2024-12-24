@@ -236,22 +236,49 @@ a {
   color: #fff; 
 }
 
-/* 이미지 크기 조정 (기본 보기) */
 #portfolio .img-fluid {
-  width: 400px !important; /* 원하는 기본 너비로 설정 */
-  height: 300px !important; /* 원하는 기본 높이로 설정 */
-  object-fit: cover !important; /* 이미지를 잘라내거나 맞춤 */
+  width: 400px !important; 
+  height: 300px !important; 
+  object-fit: cover !important; 
 }
 
-/* 팝업에서 이미지 크기 조정 */
+
 #portfolio .portfolio-btn a img {
-  max-width: 100% !important; /* 팝업에서 원하는 너비 */
-  height: auto !important; /* 높이는 비율 유지 */
-  max-width: 90% !important; /* 화면 크기에 맞게 제한 */
-  max-height: 90vh !important; /* 브라우저 높이 90% 제한 */
-  object-fit: contain !important; /* 팝업에서는 전체 이미지 표시 */
+  max-width: 100% !important; 
+  height: auto !important; 
+  max-width: 90% !important; 
+  max-height: 90vh !important; 
+  object-fit: contain !important; 
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px; 
+  transition: all 0.3s ease; 
 }
 
 
+.btn-pink {
+  background-color: #ED979A; 
+  color: #fff; 
+  border: 2px solid #ED979A;
+}
+
+
+.btn-pink:hover {
+  background-color: #fff;
+  color: #ED979A;
+  border: 2px solid #ED979A;
+}
+
+.btn:focus {
+  outline: 2px solid #f7cdce; 
+  box-shadow: 0 0 5px #f7cdce;
+}
 
 
