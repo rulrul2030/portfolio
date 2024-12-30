@@ -287,3 +287,12 @@ a {
   gap: 15px; /* 버튼 간 간격 */
   align-items: center; /* 버튼 수직 정렬 */
 }
+
+.portfolio-btn bg-primary d-flex align-items-center justify-content-center text{
+  display: flex; /* Flexbox를 사용하여 정렬 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  padding: 20px; /* 내부 여백 설정 */
+  margin: 0 auto; /* 박스를 부모 요소 기준으로 가운데 정렬 */
+}
