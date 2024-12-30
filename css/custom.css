@@ -281,7 +281,7 @@ a {
   box-shadow: 0 0 5px #f7cdce;
 }
 
-.portfolio-btn-img{
+.portfolio-btn-img d-flex justify-content-between{
   display: flex; /* Flexbox 활성화 */
   justify-content: center; /* 가운데 정렬 */
   gap: 15px; /* 버튼 간 간격 */
