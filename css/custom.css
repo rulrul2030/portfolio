@@ -288,3 +288,9 @@ a {
   align-items: center; /* 버튼 수직 정렬 */
 }
 
+.portfolio-btn a p.portfolio {
+  text-align: center !important; /* 텍스트를 수평 가운데 정렬 */
+  margin: 0 auto !important;    /* 여백을 자동으로 조정하여 중앙 배치 */
+  display: inline-block !important; /* 박스 크기를 텍스트 크기에 맞춤 */
+  width: 100% !important;       /* 부모 요소에 맞게 너비 설정 */
+}
