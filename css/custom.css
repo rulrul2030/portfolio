@@ -294,3 +294,9 @@ a {
   display: inline-block !important; /* 박스 크기를 텍스트 크기에 맞춤 */
   width: 100% !important;       /* 부모 요소에 맞게 너비 설정 */
 }
+
+p, span, div {
+  word-wrap: break-word !important;       /* 단어를 줄 바꿈 허용 */
+  overflow-wrap: break-word !important;  /* 단어를 자동으로 줄 바꿈 */
+  white-space: normal !important;        /* 텍스트를 줄 바꿈 가능 상태로 설정 */
+}
