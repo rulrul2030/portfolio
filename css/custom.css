@@ -99,15 +99,15 @@ a {
   background-color: #A1CBAA !important;
 }
 
-#about h6{
+#about h6 {
   color: #858587 !important;
 }
 
-#about h6{
+#about h6 {
   font-weight: 600 !important;
 }
 
-#about h6 .text-secondary{
+#about h6 .text-secondary {
   font-weight: 300 !important;
 }
 
@@ -121,134 +121,134 @@ a {
 
 @media (max-width: 576px) {
   .text-center h4 {
-      font-size: 18px; 
-      line-height: 1.5; 
+    font-size: 18px;
+    line-height: 1.5;
   }
 
   .text-center h4 span {
-      font-size: 18px; 
+    font-size: 18px;
   }
 }
 
 .text-center h4 {
-  white-space: normal; 
-  word-break: keep-all; 
-  overflow-wrap: break-word; 
-  line-height: 1.5; 
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  line-height: 1.5;
 }
-  
+
 
 .col-lg-6 h5 {
-  white-space: normal; 
-  word-break: keep-all; 
-  overflow-wrap: break-word; 
-  line-height: 1.5; 
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  line-height: 1.5;
 }
 
 
 .col-lg-6 .explain {
-  white-space: normal; 
-  word-break: keep-all; 
-  overflow-wrap: break-word; 
-  line-height: 1.5; 
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  line-height: 1.5;
 }
 
 .contact-form p {
-  font-size: 16px !important; 
-  color: #212529 !important; 
-  background-color: #f8f9fa !important; 
-  border: 1px solid #ddd !important; 
-  border-radius: 5px !important; 
-  padding: 15px !important; 
-  margin-bottom: 15px !important; 
-  text-align: left !important; 
+  font-size: 16px !important;
+  color: #212529 !important;
+  background-color: #f8f9fa !important;
+  border: 1px solid #ddd !important;
+  border-radius: 5px !important;
+  padding: 15px !important;
+  margin-bottom: 15px !important;
+  text-align: left !important;
 }
 
 .contact-form {
-  background-color: #ffffff !important; 
-  padding: 20px !important; 
-  border-radius: 10px !important; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important; 
+  background-color: #ffffff !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
 }
 
 .contact-form p.text-primary {
-  color: #ED979A !important; 
-  font-weight: bold !important; 
-  white-space: normal; 
+  color: #ED979A !important;
+  font-weight: bold !important;
+  white-space: normal;
   word-break: keep-all;
-  overflow-wrap: break-word; 
-  line-height: 1.5; 
+  overflow-wrap: break-word;
+  line-height: 1.5;
 }
 
 .contact-form p span {
-  color: #858587 !important; 
-  font-weight: 400 !important; 
+  color: #858587 !important;
+  font-weight: 400 !important;
 }
 
 .contact-form p.text-primary font-weight-bold message {
-  color: #ED979A !important; 
-  font-weight: bold !important; 
-  white-space: normal; 
-  word-break: keep-all; 
-  overflow-wrap: break-word; 
-  line-height: 1.5; 
-  text-indent: 2em; 
-} 
+  color: #ED979A !important;
+  font-weight: bold !important;
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  text-indent: 2em;
+}
 
 
 .circle-number {
-  width: 50px; 
-  height: 50px; 
-  background-color: #858587; 
-  color: #fff; 
-  font-size: 18px; 
-  font-weight: bold; 
-  border-radius: 50%; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  margin-right: 15px; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  width: 50px;
+  height: 50px;
+  background-color: #858587;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.circle-number + h4 {
+.circle-number+h4 {
   margin: 0;
   font-size: 1.25rem;
 }
 
 .circle-arrow {
   width: 50px;
-  height: 50px; 
-  background-color: #ED979A ; 
-  color: #fff; 
-  font-size: 18px; 
-  border-radius: 50%; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  margin-right: 15px; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  height: 50px;
+  background-color: #ED979A;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
 .circle-arrow i {
   font-size: 20px;
-  color: #fff; 
+  color: #fff;
 }
 
 #portfolio .img-fluid {
-  width: 400px !important; 
-  height: 300px !important; 
-  object-fit: cover !important; 
+  width: 400px !important;
+  height: 300px !important;
+  object-fit: cover !important;
 }
 
 
 #portfolio .portfolio-btn a img {
-  max-width: 100% !important; 
-  height: auto !important; 
-  max-width: 90% !important; 
-  max-height: 90vh !important; 
-  object-fit: contain !important; 
+  max-width: 100% !important;
+  height: auto !important;
+  max-width: 90% !important;
+  max-height: 90vh !important;
+  object-fit: contain !important;
 }
 
 .btn {
@@ -258,14 +258,14 @@ a {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  border-radius: 50px; 
-  transition: all 0.3s ease; 
+  border-radius: 50px;
+  transition: all 0.3s ease;
 }
 
 
 .btn-pink {
-  background-color: #ED979A; 
-  color: #fff; 
+  background-color: #ED979A;
+  color: #fff;
   border: 2px solid #ED979A;
 }
 
@@ -277,21 +277,25 @@ a {
 }
 
 .btn:focus {
-  outline: 2px solid #f7cdce; 
+  outline: 2px solid #f7cdce;
   box-shadow: 0 0 5px #f7cdce;
 }
 
-.portfolio-btn-img d-flex justify-content-between{
-  display: flex; /* Flexbox 활성화 */
-  justify-content: center; /* 가운데 정렬 */
-  gap: 15px; /* 버튼 간 간격 */
-  align-items: center; /* 버튼 수직 정렬 */
+.portfolio-btn-img d-flex justify-content-between {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
 }
 
 .portfolio-btn a p.portfolio {
-  text-align: center !important; /* 텍스트를 수평 가운데 정렬 */
-  margin: 0 auto !important;    /* 여백을 자동으로 조정하여 중앙 배치 */
-  display: inline-block !important; /* 박스 크기를 텍스트 크기에 맞춤 */
-  width: 100% !important;       /* 부모 요소에 맞게 너비 설정 */
+  text-align: center !important;
+  margin: 0 auto !important;
+  display: inline-block !important;
+  width: 100% !important;
 }
 
+.no-break {
+  word-break: keep-all;
+  white-space: normal;
+}
