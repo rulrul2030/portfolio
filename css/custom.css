@@ -293,6 +293,8 @@ a {
   margin: 0 auto !important;
   display: inline-block !important;
   width: 100% !important;
+  word-break: keep-all;
+  white-space: normal;
 }
 
 .portfolio-btn a p.portfolio-graphic2{
@@ -302,6 +304,8 @@ a {
   width: 100% !important;
   position: relative;
   left: -20px; 
+  word-break: keep-all;
+  white-space: normal;
 }
 
 .portfolio-btn a p.portfolio-video{
@@ -311,6 +315,8 @@ a {
   width: 100% !important;
   position: relative;
   left: -20px; 
+  word-break: keep-all;
+  white-space: normal;
 }
 
 .no-break {
